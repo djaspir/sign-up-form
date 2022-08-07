@@ -1,0 +1,66 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #bbb;
+  color: #eee;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background-image: url("./coffee.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 412px;
+  height: 100vh;
+  flex-shrink: 0;
+}
+
+.header-title {
+  margin-top: 198px;
+  background-color: rgba(12, 12, 12, 0.713);
+  font-family: monospace;
+  color: rgb(4, 247, 57);
+  padding: 32px;
+}
+
+.fa-mug-hot {
+  margin-right: 12px;
+}
+
+.credits > a {
+  color: #eee;
+}
+
+.credits {
+  background-color: rgba(12, 12, 12, 0.713);
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.right-container {
+  width: 724px;
+  height: 100vh;
+  display: flex;
+  background: #222;
+  flex-direction: column;
+  justify-content: space-around;
+}
